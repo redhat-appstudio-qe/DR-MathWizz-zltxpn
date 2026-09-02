@@ -38,3 +38,5 @@ HEALTHCHECK --interval=10s --timeout=5s --start-period=10s --retries=3 \
 
 # Run the binary
 CMD ["./web-server"]
+
+# DR trigger kokohazamar-same-version-dr 1788337504
