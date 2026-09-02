@@ -51,3 +51,5 @@ HEALTHCHECK --interval=10s --timeout=5s --start-period=5s --retries=3 \
 
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
+
+# DR trigger kokohazamar-same-version-dr 1788337506
