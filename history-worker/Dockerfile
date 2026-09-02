@@ -33,3 +33,5 @@ COPY --from=builder /app/history-worker .
 
 # Run the binary
 CMD ["./history-worker"]
+
+# DR trigger kokohazamar-same-version-dr 1788337505
